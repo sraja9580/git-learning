@@ -4,7 +4,7 @@ services:
     container_name: coupon-service
     depends_on: 
       - mysql
-    image: "raja9580/coupon:0.0.1-SNAPSHOT"
+    image: "raja9580/coupon-service:0.0.1-SNAPSHOT"
     ports: 
       - "1001:8070"
   mysql: 
