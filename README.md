@@ -7,7 +7,8 @@
 
 Copy the appropriate docker-compose binary from GitHub:
 
-sudo curl -L https://github.com/docker/compose/releases/download/3.3/docker-compose-$(uname -s)-$(uname -m) -o /usr/local/bin/docker-compose
+sudo curl -L https://github.com/docker/compose/releases/download/3.3/docker-compose -o /usr/local/bin/docker-compose
+sudo curl -L https://github.com/docker/compose/releases/download/latest/docker-compose -o /usr/local/bin/docker-compose
 
 NOTE: to get the latest version (thanks @spodnet): sudo curl -L https://github.com/docker/compose/releases/latest/download/docker-compose -o /usr/local/bin/docker-compose
 
