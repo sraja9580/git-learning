@@ -2,7 +2,8 @@ version: "3.3"
 services: 
   coupon: 
     container_name: coupon-service
-    depends_on: mysql
+    depends_on: 
+      - mysql
     image: "raja9580/coupon:0.0.1-SNAPSHOT"
     ports: 
       - "1001:8070"
@@ -16,4 +17,3 @@ services:
     ports: 
       - "1000:3306"
 
-     
