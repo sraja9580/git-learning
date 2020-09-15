@@ -6,7 +6,7 @@ services:
       - mysql
     image: "raja9580/coupon-service:0.0.1-SNAPSHOT"
     ports: 
-      - "1001:8070"
+      - "1001:8080"
   mysql: 
     container_name: 9580-mysql-docker
     environment: 
